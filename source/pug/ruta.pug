@@ -5,7 +5,7 @@ html(lang="es")
     head
         meta(charset="UTF-8")
         meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
-        title Ruta de aprendizaje
+        title Información del programa: Formalización de Empresas Asociativas de Trabajo
         meta(meta name="description" content="Ruta de aprendizaje programa Formalización de Empresas Asociativas de Trabajo.")    
         link(rel="icon",type="image/svg+xml",href="assets/images/logos/senaLogo.svg")
         link(rel="stylesheet", href="assets/fonts/feather/feather.css")
@@ -14,17 +14,11 @@ html(lang="es")
         link(href='assets/css/animate.css', rel='stylesheet')
         link(rel="stylesheet", href="assets/css/main.css")
 
-
     body#page-home.page-header-textura
 
         header#CursoPresentacion.curso-presentacion.page-header
             .page-textura
                 .container
-
-                    .curso-topbar
-                        
-                        a.curso-topbar__logo
-                            include ../assets/images/logos/senaLogo.svg
 
                     .curso-portada
 
@@ -32,7 +26,12 @@ html(lang="es")
 
                             .col-12.col-lg-6
 
-                                h3.curso-subtitulo Formalización de Empresas Asociativas de Trabajo
+                                .curso-topbar.justify-content-center.justify-content-md-start
+                        
+                                    a.curso-topbar__logo
+                                        include ../assets/images/logos/senaLogo.svg
+
+                                h3.curso-subtitulo.text-color-orange Formalización de Empresas Asociativas de Trabajo
                                 h1.curso-titulo Ruta de aprendizaje
 
                                 .brand-line-primary
